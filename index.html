@@ -1,47 +1,48 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-  <head>
-    <link href="css/shift.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js'></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<head>
+		<title>Simon Fiddaman</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
 
-      ga('create', 'UA-72311355-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-    <link rel="stylesheet" href="main.css">
-    <title>fiddaman.nl</title>
-  </head>
+				<!-- Header -->
+					<header id="header">
+						<h1>Simon Fiddaman</h1>
+						<p>Inside person &nbsp;&bull;&nbsp; Monkey &nbsp;&bull;&nbsp; Fan of spices</p>
+						<nav>
+							<ul>
+								<li><a href="https://www.instagram.com/tauneutrinos/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://keybase.io/simonf" class="icon solid fa-key"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.linkedin.com/in/simonfiddaman/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+								<li><a href="https://github.com/simonfiddaman/" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
-  <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="#">Simon Fiddaman</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-        <ul class="pull-right">
-          <li><a href="#">Sign Up</a></li>
-          <li><a href="#">Log In</a></li>
-          <li><a href="#">Help</a></li>
-        </ul>
-      </div>
-    </div>
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Simon Fiddaman. Design: <a href="http://html5up.net">HTML5 UP</a>. Image: <a href="https://unsplash.com/photos/ngMtsE5r9eI">Jens Kreuter on Unsplash</a></span>
+					</footer>
 
-    <!--
-    <form action="?" method="POST">
-      <div class="g-recaptcha" data-sitekey="6LebxQETAAAAALDK9OHJ2IlTJbSvjbVmE25Sexl7"></div>
-      <br/>
-      <input type="submit" value="Submit">
-    </form>
-    -->
-
-  </div>
-  </body>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
